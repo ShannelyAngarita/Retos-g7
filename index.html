@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/guardarCliente.js"></script>
+    <script type="text/javascript" src="js/guardarMessage.js"></script>
+    <title>Alquiler de computadores.</title>
+</head>
+<body>
+    <h1 id="title"> Alquiler de computadores. </h1>
+    <div id="FormularioCliente">
+        <h3> Registro de clientes: </h3>
+        <label>ID</label>
+        <input id="id" type="text">
+        <br> <br>
+        <label>NAME</label>
+        <input id="name" type="text">
+        <br> <br>
+        <label>EMAIL</label>
+        <input id="email" type="text">
+        <br> <br>
+        <label>AGE</label>
+        <input id="age" type="text">
+        <br> <br>
+        <button onclick="guardarCliente()"> Guardar. </button>
+    </div>
+
+    <div id="FormularioMensaje">
+        <h3> Registro de mensaje: </h3>
+        <label> ID </label>
+        <input id="id_message" type="text">
+        <br> <br>
+        <label> MESSAGETEXT </label>
+        <input id="messageText" type="text">
+        <br> <br>
+        <button onclick="guardarMessage()"> Guardar. </button>
+    </div>
+</body>
+</html>
