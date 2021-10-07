@@ -13,7 +13,7 @@ function guardarMessage() {
     console.log("Mensaje guardado exitosamente.");
 
     $.ajax({
-        url: "https://g71784f6731af69-computer.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/message/message",
+        url: "/////LINK DEL GRUPO/////",
         type: 'POST',
         dataType: 'json',
         headers: {
