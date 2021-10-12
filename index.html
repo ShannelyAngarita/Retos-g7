@@ -1,0 +1,82 @@
+<html>
+<head>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/client/client.js"></script>
+    <script type="text/javascript" src="js/message/message.js"></script>
+    <script type="text/javascript" src="js/computer/computer.js"></script>
+   
+
+    <title>Alquiler de computadores.</title>
+</head>
+<body>
+    <h1 id="title"> Alquiler de computadores </h1>
+
+
+    <div id="clientform">
+        <h3> Registro de clientes: </h3>
+        <label>ID</label>
+        <input id="id" type="number" placeholder="id">
+        <br> <br>
+        <label>NAME</label>
+        <input id="name" type="text" placeholder="name">
+        <br> <br>
+        <label>EMAIL</label>
+        <input id="email" type="text" placeholder="email">
+        <br> <br>
+        <label>AGE</label>
+        <input id="age" type="number" placeholder="age">
+        <br> <br>
+        <button onclick="saveClient()"> Guardar </button>
+
+        <button onclick="consultClient()">Consultar Clientes</button>  
+        <div id="clienttable"> 
+
+        </div>
+    </div>
+    <br> <br>
+    <div id="messageform">
+
+        <h3> Registro de mensaje: </h3>
+        <label> ID </label>
+        <input id="id_message" type="number"placeholder="id_message">
+        <br> <br>
+        <label> MESSAGETEXT </label>
+        <input id="messageText" type="text"placeholder="messageText">
+        <br> <br>
+        <button onclick="saveMessage()"> Guardar </button>
+
+        <button onclick="consultMessage()">Consultar Mensajes</button>  
+        <div id="messagetable">
+
+        </div> 
+    </div>
+    <br> <br>
+    <div id="computerform">
+        <h3> Registro de computador: </h3>
+        <label> ID </label>
+        <input id="id_computer" type="number"placeholder="id_computer">
+        <br> <br>
+        <label> BRAND </label>
+        <input id="brand" type="text"placeholder="brand">
+        <br> <br>
+        <label> MODEL</label>
+        <input id="model" type="number"placeholder="model">
+        <br> <br>
+        <label> CATEGORY_ID </label>
+        <input id="category_id" type="number"placeholder="category_id">
+        <br> <br>
+        <label> NAME </label>
+        <input id="namecomputer" type="text"placeholder="namecomputer">
+        <br> <br>
+        <button onclick="saveComputer()"> Guardar </button>
+
+        <button onclick="consultComputer()">Consultar Computadores</button>  
+        <div id="computertable"> 
+
+        </div>
+    </div>
+
+
+   </body>
+</html>
